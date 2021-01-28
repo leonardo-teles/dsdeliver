@@ -1,46 +1,44 @@
-# Getting Started with Create React App
+# ➤ Front-end Web Ds Delivery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A implantação do front-end web foi feita na Netlify e o sistema pode ser visto aqui: https://my-dsdelivery.netlify.app/
 
-## Available Scripts
+### ➤ Imagens do Sistema
 
-In the project directory, you can run:
+#### Home
 
-### `npm start`
+<img src="./front-web/src/assets/screenshots/01.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Realizar Pedidos
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<img src="./front-web/src/assets/screenshots/02.png">
 
-### `npm test`
+**Atenção**: 
+- Para subir a aplicação localmente é necessário ter o `Node` instalado.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Antes de inicializar a aplicação é necessário gerar um arquivo `.env` na raiz do projeto para configuração de variáveis de ambiente. Verifique o arquivo `.env_example` para servir de base. 
 
-### `npm run build`
+- É necessário ter uma conta no Map Box (mapa utilizado para localização). Após a geração do token de acesso no site do Map Box, coloque o valor em **REACT_APP_ACCESS_TOKEN_MAP_BOX** (arquivo `.env`).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Para uma melhor experiência de utilização é necessário que a instância do back-end esteja no ar. Coloque em **REACT_APP_API_URL** (arquivo `.env`) a URL local do back-end.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Execute o comando `npm i` para baixar as dependências.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Feitos os passos acima, execute `npm start`. Neste ponto, sua aplicação deverá estar rodando em `http://localhost:3000`.
 
-### `npm run eject`
+## ➤ Rotas
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Home ( / ) 
+- Responsável pela página principal do sistema.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Orders ( /orders )
+- Responsável por listar todos os produtos disponíveis, bem como renderização do mapa e finalização do pedido. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## ➤ Tecnologias
+1. Typescript 4.1.3
+2. ReactJS 17.0.1
+3. React Toastify 6.2.0
+4. React Leaflet 3.0.5
+5. Axios 0.21.1
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ➤ Map box
+Link para mais informações sobre o Map box: https://www.mapbox.com/
