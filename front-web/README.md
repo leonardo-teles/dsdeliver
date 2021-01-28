@@ -6,13 +6,11 @@ A implantação do front-end web foi feita na Netlify e o sistema pode ser visto
 
 #### Home
 
- dsdeliver/front-web/src/assets/screenshots/01.png 
-
-<img src="dsdeliver/front-web/src/assets/screenshots/01.png">
+<img src="./src/assets/screenshots/01.png">
 
 #### Realizar Pedidos
 
-<img src="dsdeliver/front-web/src/assets/screenshots/02.png">
+<img src="./src/assets/screenshots/02.png">
 
 **Atenção**: 
 - Para subir a aplicação localmente é necessário ter o `Node` instalado.

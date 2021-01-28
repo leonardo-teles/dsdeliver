@@ -4,17 +4,17 @@
 
 #### Home
 <p align="center">
-    <img width="250" height="400" src="dsdeliver/front-mobile/src/assets/screenshots/home.jpeg">
+    <img width="250" height="400" src="./src/assets/screenshots/home.jpeg">
 </p>
 
 #### Lista de Pedidos
 <p align="center">
-    <img width="250" height="400" src="dsdeliver/front-mobile/src/assets/screenshots/orders.jpeg">
+    <img width="250" height="400" src="./src/assets/screenshots/orders.jpeg">
 </p>
 
 #### Pedido Selecionado
 <p align="center">
-    <img width="250" height="400" src="dsdeliver/front-mobile/src/assets/screenshots/selectedorder.jpeg">
+    <img width="250" height="400" src="./src/assets/screenshots/selectedorder.jpeg">
 </p>    
 
 **Atenção**: 
